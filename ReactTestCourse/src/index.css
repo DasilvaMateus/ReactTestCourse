@@ -11,6 +11,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -50,7 +51,10 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+
+  height: 48px;
   width: 100%;
+  border: 1px solid rgb(38, 36, 36);
 }
 button:hover {
   border-color: #646cff;
@@ -76,5 +80,5 @@ button:focus-visible {
 input {
   height: 48px;
   width: 100%;
-  padding: 8px;
+  padding: 16px;
 }

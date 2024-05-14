@@ -1,1 +1,1 @@
-/// <reference types="vites/globals" />
+/// <reference types="vite/client" />
